@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+
+    .item {
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+}

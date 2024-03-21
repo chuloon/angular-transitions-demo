@@ -1,0 +1,8 @@
+<div class="navbar w-fit">
+    @for(navItem of navItems; track navItem.label) {
+    <div class="item">
+        <a [routerLink]="'/' + navItem.route" [style.view-transition-name]="navItem.transitionName">{{ navItem.label
+            }}</a>
+    </div>
+    }
+</div>
